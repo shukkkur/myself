@@ -1,2 +1,1 @@
-# My-Bookshelf
-Decided to keep a list of books I read. Starting from 2021 
+# Some books I read and didn't forget about
