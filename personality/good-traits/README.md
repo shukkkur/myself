@@ -1,4 +1,4 @@
-## Postive personality traits I seem to possess. 
+## Postive personality traits I seem to possess
 - extravert  
 - athleticism 
 - sense of humor
