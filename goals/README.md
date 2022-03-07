@@ -2,7 +2,7 @@
 
 <ul>
   <li>happily marry</li>
-  <li>become ML expert</li>
+  <li>become ML/DL expert</li>
   <li>Visit Europe</li>
   <li>Save money and buy an apartment in Moscow</li>
   <li>Learn 20 suras</li>
