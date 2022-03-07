@@ -31,7 +31,6 @@
 - convservationalist 
 - studious
 - do my best to constantly reflect on matters
-- enjoy coding, when I know what I am doing
 
 <br>
 
