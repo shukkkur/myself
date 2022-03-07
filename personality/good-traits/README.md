@@ -29,7 +29,9 @@
 - overthinker / thinker 
 - enjoy philosophizing
 - convservationalist 
-
+- studious
+- do my best to constantly reflect on matters
+- enjoy coding, when I know what I am doing
 
 <h3>Warning: Above list is non-finite and subject to change</h3>
 <h3>Source --> friend / close acquaintances / criticism / self-reflection</h3>
