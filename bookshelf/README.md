@@ -1,4 +1,4 @@
-<h1> Some books I read and didn't forget about </h1>
+<h1> Some books I read and didn't forget about</h1>
 
 <h3>2021</h3>
 
@@ -31,3 +31,5 @@
   <li>The Count of Monte Cristo (I)- Alexandre Dumas</li>
   <li>The Count of Monte Cristo (II)- Alexandre Dumas</li>
 </ol>
+
+<h3><i>P.S. didn't write the books before 2021, since they were mainly novels</i></h3>
