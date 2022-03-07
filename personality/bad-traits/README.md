@@ -1,6 +1,7 @@
 ## Negative personality traits I seem to posses
 
 - Manipulative 
+- Cunning
 - Flirtatoius
 - Overthinker
 - Clean Freak
