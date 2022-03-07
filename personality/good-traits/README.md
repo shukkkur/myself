@@ -1,4 +1,4 @@
-Postive personality traits I seem to posses. 
+## Postive personality traits I seem to possess. 
 ### Source --> friend / close acquaintances / criticism / self-reflection 
 
 - a
