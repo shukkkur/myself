@@ -1,4 +1,4 @@
-<h2> Some books I read and didn't forget about </h2>
+<h1> Some books I read and didn't forget about </h1>
 
 <h3>2021</h3>
 
