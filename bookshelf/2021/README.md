@@ -1,7 +1,3 @@
-<h1> Some books I read and didn't forget about</h1>
-
-<h3>2021</h3>
-
 <ol>
   <li>40 Rules of Love - Elif Shafak</li>
   <li>The Rudest Book Ever - Shwetabh Gangwar</li>
