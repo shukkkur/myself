@@ -28,7 +28,7 @@
 - sagacious 
 - overthinker / thinker 
 - enjoy philosophizing
-- convservationalist 
+- conservationalist 
 - studious
 - do my best to constantly reflect on matters
 
