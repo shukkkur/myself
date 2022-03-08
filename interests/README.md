@@ -14,6 +14,6 @@
   <li>family</li>
   <li>table tennis</li>
   <li>meaningful conversations</li>
-  <li>overthing</li>
+  <li>Overthinking</li>
   <li>Enjoy Coding, when I know what I am doing</li>
 </ul>
