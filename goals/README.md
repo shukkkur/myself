@@ -8,7 +8,7 @@
   <li>Learn 20 suras</li>
   <li>read Quran multiple times</li>
   <li>Make pilgrimage</li>
-  <li>If by Allah's mercy I will have a dauther, I would like to call her Shukriya</li>
+  <li>If by Allah's mercy I will have a daughter, I would like to call her Shukriya</li>
   <li>Be/Become an amazing brother/son/friend/husbnad/father</li>
   <li>Become a good setter</li>
   <li>Have passive income</li>
