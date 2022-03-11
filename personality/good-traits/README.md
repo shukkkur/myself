@@ -1,36 +1,38 @@
 ## Postive personality traits I seem to possess
 
-- extravert  
-- athleticism 
-- sense of humor
-- emotional intelligence 
-- polite
-- well-mannered
-- conversationalist
-- friendly
-- empathetic
-- moralist
-- religious
-- erudite
-- like to read
-- focused on self-development 
-- ready to commit
-- respectful 
-- neat
-- organized
-- kind
-- frugal
-- responsible
-- mature
-- don't use foul language
-- optimist 
-- prudent 
-- sagacious 
-- overthinker / thinker 
-- enjoy philosophizing
-- conservationalist 
-- studious
-- do my best to constantly reflect on matters
+<ul>
+  <li>Extravert</li>
+  <li>Athleticism </li>
+  <li>Sense of Humor</li>
+  <li>Emotional Intelligence </li>
+  <li>Polite</li>
+  <li>Well-Mannered</li>
+  <li>Conversationalist</li>
+  <li>Friendly</li>
+  <li>Empathetic</li>
+  <li>Moralist</li>
+  <li>Religious</li>
+  <li>Erudite</li>
+  <li>Like to Read</li>
+  <li>Focused on Self-Development</li>
+  <li>Ready to Commit</li>
+  <li>Respectful</li>
+  <li>Neat</li>
+  <li>Organized</li>
+  <li>Kind</li>
+  <li>Frugal</li>
+  <li>Responsible</li>
+  <li>Mature</li>
+  <li>Don't use Foul Language</li>
+  <li>Optimist</li>
+  <li>Prudent</li>
+  <li>Sagacious</li>
+  <li>Overthinker / Thinker </li>
+  <li>Enjoy Philosophizing</li>
+  <li>Conservationalist</li>
+  <li>Studious</li>
+  <li>Do my Best to Constantly Reflect on Matters</li>
+</ul>
 
 <br>
 
