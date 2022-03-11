@@ -1,9 +1,9 @@
 <h2>Dreams</h2>
 
 <ul>
-  <li>happy familty</li>
-  <li>adopt a child</li>
-  <li>strong deen</li>
-  <li>get to Jannah</li>
-  <li>be a setter and part of professional team</li>
+  <li>Happy Marital Life and Family</li>
+  <li>Adopt a child</li>
+  <li>Strong Deen (faith)</li>
+  <li>Get to Jannah (Heaven)</li>
+  <li>Become a setter and part of professional team</li>
 </ul>
