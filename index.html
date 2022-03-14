@@ -15,22 +15,137 @@
   <title>shukkkur</title>
   <link rel="icon" href="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/fox.png">
   <style>
-  ul {
+  
+ul {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
 }
 
+ol {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h5 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
 img { display: block;}
 
 hr {border: 1px solid black;}
+/*
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*/ 
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60" data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
 
-<!--   -->
 
-  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark static-top justify-content-center">  
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top justify-content-center">  
   <div class="container-fluid">
   <a class="navbar-brand" href="https://shukkkur.github.io/"><img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/30d005e7449b559b8fbe16d28410c747bb715787/images/foxy.png"  width="45" class="align-center" alt=""></a>
     <ul class="navbar-nav">
@@ -40,11 +155,17 @@ hr {border: 1px solid black;}
       <li class="nav-item">
         <a class="nav-link" href="#dreams"><span class="mb-0 h5">DREAMS</span></a>
       </li>
-      <li>
-       
-       </li>
       <li class="nav-item">
         <a class="nav-link" href="#interests"><span class="mb-0 h5">INTERESTS</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          <span class="mb-0 h5">BOOKSHELF</span>
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#books2021">2021 List</a>
+          <a class="dropdown-item" href="#reading">Reading</a>
+        </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -60,7 +181,7 @@ hr {border: 1px solid black;}
   </nav>
   <div id="goals" class="container-fluid" style="padding-top:30px;padding-bottom:70px;">
     <h2>Goals 🥅</h2>
-    <h4>things I want to accomplish in life </h4>
+    <h5>things I want to accomplish in life </h5>
 <ul>
   <li>Happily marry / compatible spouse</li>
   <li>Financial stability</li>
@@ -91,7 +212,9 @@ hr {border: 1px solid black;}
 </ul>
 
   </div>
+  
   <hr class="mt-0 mb-0" />
+  
   <div id="interests" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
     <h2>Interests 🎮</h2>
   <ul>
@@ -111,12 +234,70 @@ hr {border: 1px solid black;}
     <li>Overthinking</li>
     <li>Enjoy Coding, when I know what I am doing</li>
   </ul>
-
   </div>
+  
+  <hr class="mt-0 mb-0" />
+  
+  <div id="books2021" class="container-fluid" style="padding-top:70px;padding-bottom:70px;">
+    <h2>2021 📚</h2>
+    <h5>Didn't write the books before 2021, since they were mainly novels about loveee and adventrue :D</h5>
+ <br>
+<ol>
+  <li>40 Rules of Love - Elif Shafak</li>
+  <li>The Rudest Book Ever - Shwetabh Gangwar</li>
+  <li>33 Ways of Developing Khushoo in Salah - Muhammad Salih Al-Munajjid</li>
+  <li>Why Do We Love The Way We Do - Preety Shenoy</li>
+  <li>Models - Mark Manson</li>
+  <li>Emotional Intelligence 2.0 - Dr. Travis Bradberry</li>
+  <li>Philosophy 101 - Paul Kleinman</li>
+  <li>Big Data A Revolution - Viktor Mayer</li>
+  <li>Apology of Socrates - Plato</li>
+  <li>Crito of Socrates - Plato</li>
+  <li>Phaedo of Socrates - Plato</li>
+  <li>How to Marry Well - Duchess</li>
+  <li>Why Men Want Sex and Women Need Love - Allan and Barbara Pease</li>
+  <li>7 Principles for Making Marriage Work - John Gottman</li>
+  <li>Waiting and Dating - Myles Munroe</li>
+  <li>Batman and Philosophy - Mark White</li>
+  <li>Супружество и Интимная Жизнть в Исламе - И.О. Абдуллаев</li>
+  <li>Современная Этика - Е.В. Золотухина-Аболина</li>
+  <li>10 Маленьких Негритят - Агата Кристи</li>
+  <li>Убийство в Восточном Экспрессе - Агата Кристи</li>
+  <li>The Art of Statistics - David Spiegelhalter</li>
+  <li>Manga Guide To Statistics - Shin Takahashi</li>
+  <li>Manga Guide To Linear Algebra - Shin Takahashi</li>
+  <li>Introduction to Machine Learning - Andreas C. Müller</li>
+  <li>The Hobbit - J.R.R.Tolkien</li>
+  <li>The Count of Monte Cristo (I)- Alexandre Dumas</li>
+  <li>The Count of Monte Cristo (II)- Alexandre Dumas</li>
+</ol>
+
+
+<h2  style="padding-top:70px;padding-bottom:30px" id="reading">Currently Reading 📙</h2>
+
+<ul>
+  <li>The Daily Stoic - Ryan Holiday</li>
+  <li>Aristotle for Everybody - Mortimer J. Adler</li>
+  <li>On What Matters - Derek Parfit</li>
+  <li>How to Analyze People on Sight - Elsie Benedict</li>
+  <li>The Art of Seduction - Robert Greene</li>
+  <li>Wired for Love - Stan Tatkin</li>
+  <li>Семья и Ислам - Шамиль Аляутдинов</li>
+  <li>Учение Ислама - Муфтий Кифаятуллах</li>
+  <li>Аристотель - А. Лосев</li>
+  <li>700 Идей по Воспитанию Детей - Шейх Мухаммад Абдуль-Муты</li>
+  <li>Критика Способности Суждения - Имманил Кант</li>
+  <li>Современная Этика - Золотухина-Аболина</li>
+  <li>Супружество и Интимная Жизнь Мусульман - И. Абдуллаев</li>
+<ul>
+  </div>  
+
+
+</div>
   <hr class="mt-0 mb-0" />
   <div id="good" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
     <h2>Good Traits 😇</h2>
-    <h4>Postive personality traits I seem to possess</h4>
+    <h5>Positive personality traits I seem to possess</h5>
 	<br>
     <div class="container">
 <ul>
@@ -152,19 +333,11 @@ hr {border: 1px solid black;}
   <li>Studious</li>
   <li>Do my Best to Constantly Reflect on Matters</li>
 </ul>
-      <div class="text-center border-bottom py-4 mt-0">
-      <p align="center">
-        <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/1logo.png" alt="nature" width="80%"/>
-		<i>Love our Club's Logo & Slogan</i>
-        </p>
-      </div>
-    </div>
 
-  </div>
-  <hr class="mt-0 mb-0" />
-  <div id="bad" class="container-fluid bg-light" style="padding-top:70px;">
+    </div>
+      <div id="bad" class="container-fluid bg-light" style="padding-top:70px;">
     <h2>Bad Traits 😈</h2>
-    <h4>Negative personality traits I have</h4>
+    <h5>A few negative traits I have</h5>
     <ul>
       <li>Manipulative</li>
       <li>Cunning</li>
@@ -178,7 +351,7 @@ hr {border: 1px solid black;}
       <li>Betrayed Twice </li>
       <li>Always think I discovered myself, but actually don't know myself</li>
       <li>Think that I am the best groom there is</li>
-      <li>Tell that I am honest, but I am not sure if I ever was honest with anyone, I am probably lying to myself too.</li>
+      <li>Tell that I am honest, but I am not sure if I ever was honest with anyone, I am probably lying to myself too</li>
       <li>Superiority Complex</li>
       <li>Haven't been open and vulnerable</li>
       <li>Don't have the courage to say the truth, if it hurts someone's feelings</li>
@@ -186,23 +359,77 @@ hr {border: 1px solid black;}
       <li>Hyper aware of how others see me</li>
       <li>Get discourages over small arguments / exaggerate small fights </li>
       <li>Know nothing about commitment</li>
-      <li>failed to keep my promises</li>
+      <li>Failed to keep my promises</li>
+      <li>Associate myself with a fox</li>
 	</ul><br>
-        <div id="time">time</div>
+  </div>
+ 
+<!--  <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/1logo.png" style="width:100%; height: 500px">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/ava-removebg-preview.png" style="width:100% ; height: 500px">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/1logo.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+-->
+
     <hr>
     
-    <h4 align="center"><strong>WARNING</strong> </h4>
+    <h5 align="left"><strong>P.S.</strong> </h5>
+    
+    <q style="font-family: times; font-size:20px"><strong>It is impossible to speak in such a way that you cannot be misunderstood.</strong>
+    <small class="author"><i>Karl Popper</i></small></q>
+    <p style=>This quote fascinates me, but at the same time I want to fight it back even though I clearly realize that we will never completely understand what others mean when they say something. But, that didn't stop me from trying. I believe, if people will know more about a person, his beliefs and values, maybe it will help to prevent potential misunderstandings, promote better communication and build stronger relationships.</p>
+    
+    <hr>
+    
+    <h5 align="center"><strong>WARNING</strong> </h5>
+    
     <p align="center"><i>Above lists are probably subjective, non-finite and subjects to change. 
-    Source - friend / close acquaintances / criticism / self-reflection</i>.<br><strong>Sincerely, Shukur</strong></p>
+    Source - friend / close acquaintances / criticism / self-reflection</i>.<br></p>
+    
+    <p align="center" style="font-family: Papyrus; font-size:22px"><strong>Sincerely, Shukur</strong></p>
   </div>
 </body>
-<script type="text/javascript">
-  var today = new Date();
-  var dd = String(today.getDate()).padStart(2, '0');
-  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-  var yyyy = today.getFullYear();
 
-  today = mm + '/' + dd + '/' + yyyy;
-  $('#time').text("Last update: " + today)
+<!--
+<script type="text/javascript">
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+} 
 </script>
+-->
 </html>
