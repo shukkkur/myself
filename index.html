@@ -53,18 +53,14 @@ img { display: block;}
 hr {border: 1px solid black;}
 /*
 * {box-sizing:border-box}
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
 .mySlides {
   display: none;
 }
-
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -79,16 +75,13 @@ hr {border: 1px solid black;}
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -98,7 +91,6 @@ hr {border: 1px solid black;}
   width: 100%;
   text-align: center;
 }
-
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -106,8 +98,6 @@ hr {border: 1px solid black;}
   position: absolute;
   top: 0;
 }
-
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -118,23 +108,19 @@ hr {border: 1px solid black;}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -363,6 +349,7 @@ hr {border: 1px solid black;}
       <li>Associate myself with a fox</li>
 	</ul><br>
   </div>
+</div>
  
 <!--  <div class="slideshow-container">
   <div class="mySlides fade">
@@ -370,55 +357,49 @@ hr {border: 1px solid black;}
     <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/1logo.png" style="width:100%; height: 500px">
     <div class="text">Caption Text</div>
   </div>
-
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/ava-removebg-preview.png" style="width:100% ; height: 500px">
     <div class="text">Caption Two</div>
   </div>
-
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/1logo.png" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
-
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
-
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 -->
-
-    <hr>
+<hr class="mt-0 mb-0" />
+<div id="bad" class="container-fluid bg-light" style="padding-top:30px; padding-bottom:30px;">
+<h5 align="left"><strong>P.S.</strong> </h5>
     
-    <h5 align="left"><strong>P.S.</strong> </h5>
-    
-    <q style="font-family: times; font-size:20px"><strong>It is impossible to speak in such a way that you cannot be misunderstood.</strong>
+<q style="font-family: times; font-size:20px"><strong>It is impossible to speak in such a way that you cannot be misunderstood.</strong>
     <small class="author"><i>Karl Popper</i></small></q>
     <p style=>This quote fascinates me, but at the same time I want to fight it back even though I clearly realize that we will never completely understand what others mean when they say something. But, that didn't stop me from trying. I believe, if people will know more about a person, his beliefs and values, maybe it will help to prevent potential misunderstandings, promote better communication and build stronger relationships.</p>
-    
-    <hr>
-    
+</div>
+<hr class="mt-0 mb-0" />
+
+<div id="bad" class="container-fluid bg-light" style="padding-top:30px;">
     <h5 align="center"><strong>WARNING</strong> </h5>
     
     <p align="center"><i>Above lists are probably subjective, non-finite and subjects to change. 
     Source - friend / close acquaintances / criticism / self-reflection</i>.<br></p>
     
     <p align="center" style="font-family: Papyrus; font-size:22px"><strong>Sincerely, Shukur</strong></p>
-  </div>
 </body>
 
 <!--
 <script type="text/javascript">
   var slideIndex = 0;
 showSlides();
-
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
