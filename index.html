@@ -29,7 +29,6 @@ ol {
 }
 
 
-
 h2 {
   font-family: "Times New Roman", Times, serif;
 }
@@ -126,17 +125,40 @@ hr {border: 1px solid black;}
   to {opacity: 1}
 }
 */ 
+.nav-bar .fa-bars{
+   color: #000;
+   font-size: 35px;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+.dropdown-menu > a:hover {
+    background-image: none;
+    background-color: grey;
+}
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60" data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
 
 
-  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top justify-content-center">  
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top justify-content-center"> 
+  
+  
   <a class="navbar-brand" href="https://shukkkur.github.io/"><img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/30d005e7449b559b8fbe16d28410c747bb715787/images/foxy.png"  width="45" class="align-center" alt=""></a>
-    <ul class="navbar-nav">
+  
+  <button class="navbar-toggler ml-auto" 
+                type="button" 
+                data-toggle="collapse"
+                data-target="#nav1">
+            <span class="navbar-toggler-icon my-toggler">
+          </span>
+        </button>
+    <div class="navbar-collapse collapse" id="nav1">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link active" href="#goals"><span class="mb-0 h5">GOALS</span></a>
+        <a class="nav-link" href="#goals"><span class="mb-0 h5">GOALS</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#dreams"><span class="mb-0 h5">DREAMS</span></a>
@@ -144,22 +166,25 @@ hr {border: 1px solid black;}
       <li class="nav-item">
         <a class="nav-link" href="#interests"><span class="mb-0 h5">INTERESTS</span></a>
       </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="https://github.com/shukkkur/myself/tree/main/dictionary" target="_blank"><span class="mb-0 h5">DICTIONARY</span></a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           <span class="mb-0 h5">BOOKSHELF</span>
         </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#books2021">2021 List</a>
-          <a class="dropdown-item" href="#reading">Reading</a>
+        <div class="dropdown-menu" style="background-color: inherit">
+          <a class="dropdown-item" href="#books2021" style="color:white">2021 List</a>
+          <a class="dropdown-item" href="#reading" style="color:white">Reading</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           <span class="mb-0 h5">PERSONALITY</span>
         </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#good">Good Traits</a>
-          <a class="dropdown-item" href="#bad">Bad Traits</a>
+        <div class="dropdown-menu" style="background-color: inherit">
+          <a class="dropdown-item" href="#good" style="color:white">Good Traits</a>
+          <a class="dropdown-item" href="#bad" style="color:white">Bad Traits</a>
         </div>
       </li>
     </ul>	
@@ -318,12 +343,12 @@ hr {border: 1px solid black;}
   <li>Conservationalist</li>
   <li>Studious</li>
   <li>Do my Best to Constantly Reflect on Matters</li>
+  <li>Nyctophile</li>
 </ul>
 
     </div>
       <div id="bad" class="container-fluid bg-light" style="padding-top:70px;">
     <h2>Bad Traits 😈</h2>
-    <h5>A few negative traits I have</h5>
     <ul>
       <li>Manipulative</li>
       <li>Cunning</li>
@@ -379,7 +404,7 @@ hr {border: 1px solid black;}
 -->
 <hr class="mt-0 mb-0" />
 <div id="bad" class="container-fluid bg-light" style="padding-top:30px; padding-bottom:30px;">
-<h5 align="left"><strong>P.S.</strong> </h5>
+<h2 align="left">Motivation</h2>
     
 <q style="font-family: times; font-size:20px"><strong>It is impossible to speak in such a way that you cannot be misunderstood.</strong>
     <small class="author"><i>Karl Popper</i></small></q>
@@ -388,10 +413,10 @@ hr {border: 1px solid black;}
 <hr class="mt-0 mb-0" />
 
 <div id="bad" class="container-fluid bg-light" style="padding-top:30px;">
-    <h5 align="center"><strong>WARNING</strong> </h5>
+    <h5 align="center"><strong>WARNING!</strong> </h5>
     
     <p align="center"><i>Above lists are probably subjective, non-finite and subjects to change. 
-    Source - friend / close acquaintances / criticism / self-reflection</i>.<br></p>
+    Source - friends / close acquaintances / criticism / self-reflection</i>.<br></p>
     
     <p align="center" style="font-family: Papyrus; font-size:22px"><strong>Sincerely, Shukur</strong></p>
 </body>
