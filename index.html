@@ -137,6 +137,13 @@ hr {border: 1px solid black;}
 .dropdown-menu > a:hover {
     background-image: none;
     background-color: grey;
+    color: white;
+}
+
+.dropdown-menu > a {
+    color: black;
+    margin-top: 5px;
+
 }
   </style>
 </head>
@@ -173,18 +180,18 @@ hr {border: 1px solid black;}
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           <span class="mb-0 h5">BOOKSHELF</span>
         </a>
-        <div class="dropdown-menu" style="background-color: inherit">
-          <a class="dropdown-item" href="#books2021" style="color:white">2021 List</a>
-          <a class="dropdown-item" href="#reading" style="color:white">Reading</a>
+        <div class="dropdown-menu pb-0" style="background-color: inherit">
+          <a class="dropdown-item" href="#books2021" >2021 List</a>
+          <a class="dropdown-item" href="#reading">Reading</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           <span class="mb-0 h5">PERSONALITY</span>
         </a>
-        <div class="dropdown-menu" style="background-color: inherit">
-          <a class="dropdown-item" href="#good" style="color:white">Good Traits</a>
-          <a class="dropdown-item" href="#bad" style="color:white">Bad Traits</a>
+        <div class="dropdown-menu pb-0" style="background-color: inherit">
+          <a class="dropdown-item" href="#good">Good Traits</a>
+          <a class="dropdown-item" href="#bad">Bad Traits</a>
         </div>
       </li>
     </ul>	
@@ -247,6 +254,7 @@ hr {border: 1px solid black;}
   </ul>
   </div>
   
+  <div id="dictionary" class="container-fluid"></div>
   <hr class="mt-0 mb-0" />
   
   <div id="books2021" class="container-fluid" style="padding-top:70px;padding-bottom:70px;">
@@ -310,7 +318,7 @@ hr {border: 1px solid black;}
     <h2>Good Traits 😇</h2>
     <h5>Positive personality traits I seem to possess</h5>
 	<br>
-    <div class="container">
+    <div class="container-fluid">
 <ul>
   <li>Extravert</li>
   <li>Athleticism </li>
